@@ -1,0 +1,2 @@
+# WebLogic Application Server host and port 
+#jndiCtxFactory="weblogic.jndi.WLInitialContextFactory" 
