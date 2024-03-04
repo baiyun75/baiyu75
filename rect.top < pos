@@ -1,0 +1,3 @@
+                if again_rect.left < pos[0] < again_rect.right and \
+                   again_rect.top < pos[1] < again_rect.bottom:
+                    main()
