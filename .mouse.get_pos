@@ -1,0 +1,3 @@
+            if pygame.mouse.get_pressed()[0]:
+                pos = pygame.mouse.get_pos()
+                if again_rect.left < pos[0] < again_rect.right and \
