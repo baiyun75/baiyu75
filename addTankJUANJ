@@ -1,0 +1,7 @@
+        allTanks.add(myTank);
+        addTank();
+        try {
+            backGround = new ImageIcon(
+                    TankWar.class.getResource("/pic/whiteback.jpg"));
+        } catch (Exception e) {
+        }
