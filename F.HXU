@@ -1,0 +1,4 @@
+        f.setResizable(true);
+        f.setFocusable(true);
+        f.addKeyListener(this);
+        f.setVisible(true);
