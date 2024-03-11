@@ -1,0 +1,5 @@
+tinydict['Alice']: 
+Traceback (most recent call last):
+  File "test.py", line 5, in <module>
+    print "tinydict['Alice']: ", tinydict['Alice']
+KeyError: 'Alice'
