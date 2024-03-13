@@ -1,0 +1,5 @@
+	if(month<3) return year-1;
+	else return year;
+}
+
+long int g(int month)
