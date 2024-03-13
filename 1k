@@ -1,0 +1,5 @@
+	int primes[N];
+	int pc,m,k;
+
+	clrscr();
+	printf("\n The first %d prime numbers are:\n",N);
