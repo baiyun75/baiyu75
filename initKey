@@ -1,0 +1,5 @@
+
+    @Scheduled(cron = "0 56 \* \* \* ?")
+    public void initKeys() {
+        LocalDateTime now = LocalDateTime.now();
+        ValueOperations<String, String> operations = stringRedisTemplate.opsForValue();
