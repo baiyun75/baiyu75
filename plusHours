@@ -1,0 +1,4 @@
+        LocalDateTime begin = now.withMinute(0).withSecond(0).withNano(0);
+        for (int i = 1; i < 17; i++) {
+            setExpireKey(begin.plusHours(i), 8, operations);
+        }
