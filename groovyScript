@@ -1,0 +1,3 @@
+<printContext>
+---------------
+LogUtil.$TYPE$(LOGGER, "$MSG$ " + $params$);
